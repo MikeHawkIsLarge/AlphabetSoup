@@ -76,18 +76,107 @@ def turtleLetter(letter,tur):
 	    pass
     elif letter == "U":
 	    pass
-    elif letter == "V":#Chase does last 5
-	    pass
-    elif letter == "W":
-	    pass
-    elif letter == "X":
-	    pass
-    elif letter == "Y":
-	    pass
-    elif letter == "Z":
-	    pass		
+    elif letter == "V":
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.left(30)
+        tur.fd(40)
+        tur.left(120)
+        tur.fd(40)
+        tur.left(30)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
 
-        
+    elif letter == "W":
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.left(30)
+        tur.fd(40)
+        tur.left(130)
+        tur.fd(15)
+        tur.right(130)
+        tur.fd(15)
+        tur.left(130)
+        tur.fd(40)
+        tur.left(20)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+
+    elif letter == "X":
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.left(45)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(20)
+        tur.right(180)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(20)
+        tur.right(180)
+        tur.fd(20)
+        tur.right(90)
+        tur.fd(20)
+        tur.pu()
+        tur.left(45)
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+
+    elif letter == "Y":
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.left(90)
+        tur.right(50)
+        tur.fd(25)
+        tur.right(40)
+        tur.fd(30)
+        tur.right(180)
+        tur.fd(30)
+        tur.right(40)
+        tur.fd(25)
+        tur.pu()
+        #fix
+        tur.left(40)
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+
+
+    elif letter == "Z":
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()     
+        tur.left(90)
+        tur.fd(30)
+        tur.right(135)
+        tur.forward(40)
+        tur.left(135)
+        tur.forward(30)
+        #fix
+        tur.pu()
+        tur.left(90)
+        tur.fd(40)
+        tur.right(90)
+
     elif letter == "Ax":
         # code here
         tur.forward(40)
